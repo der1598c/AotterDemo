@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453A82E122B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82DB22B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.m */; };
+		453A82E222B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82DC22B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.m */; };
+		453A82E322B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82DF22B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.m */; };
+		453A82E422B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82E022B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.m */; };
+		453A82EE22B0C4D400DD1215 /* MusicInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82EB22B0C4D400DD1215 /* MusicInfoTableViewCell.m */; };
+		453A82EF22B0C4D400DD1215 /* MusicInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453A82ED22B0C4D400DD1215 /* MusicInfoTableViewCell.xib */; };
+		453A82F522B0CA1300DD1215 /* FilmInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82F322B0CA1300DD1215 /* FilmInfoTableViewCell.m */; };
+		453A82F622B0CA1300DD1215 /* FilmInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453A82F422B0CA1300DD1215 /* FilmInfoTableViewCell.xib */; };
+		453A82FA22B0F99A00DD1215 /* ThemeConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A82F922B0F99A00DD1215 /* ThemeConfigurationViewController.m */; };
+		4550518922B398B9006B1625 /* CollectionItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550518822B398B9006B1625 /* CollectionItemsViewController.m */; };
+		455F5C3C22AE35D900184983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455F5C3B22AE35D900184983 /* AppDelegate.m */; };
+		455F5C3F22AE35D900184983 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455F5C3E22AE35D900184983 /* MainViewController.m */; };
+		455F5C4222AE35D900184983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455F5C4022AE35D900184983 /* Main.storyboard */; };
+		455F5C4522AE35D900184983 /* AotterDemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 455F5C4322AE35D900184983 /* AotterDemoModel.xcdatamodeld */; };
+		455F5C4722AE35DB00184983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455F5C4622AE35DB00184983 /* Assets.xcassets */; };
+		455F5C4A22AE35DB00184983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455F5C4822AE35DB00184983 /* LaunchScreen.storyboard */; };
+		455F5C4D22AE35DB00184983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455F5C4C22AE35DB00184983 /* main.m */; };
+		455F5C6C22AE3AF800184983 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F5C5E22AE3ADC00184983 /* AFNetworking.framework */; };
+		456C1D9A22AF534C00BB065E /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C1D9822AF534C00BB065E /* PersonalViewController.m */; };
+		456C1DA922AF5FC300BB065E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C1DA822AF5FC300BB065E /* Constants.m */; };
+		7B870223649B54551C2393D1 /* libPods-AotterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD737C96784E74003DC84AF /* libPods-AotterDemo.a */; };
+		A9005E4522B40A3F004DDB98 /* NinaPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E4022B40A3F004DDB98 /* NinaPagerView.m */; };
+		A9005E4622B40A3F004DDB98 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E4122B40A3F004DDB98 /* UIView+ViewController.m */; };
+		A9005E4722B40A3F004DDB98 /* NinaBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E4422B40A3F004DDB98 /* NinaBaseView.m */; };
+		A9005E5322B41167004DDB98 /* FilmCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E4F22B41167004DDB98 /* FilmCollectionViewController.m */; };
+		A9005E5722B411D1004DDB98 /* ChildBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E5622B411D0004DDB98 /* ChildBaseViewController.m */; };
+		A9005E5D22B438F6004DDB98 /* MusicCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9005E5C22B438F6004DDB98 /* MusicCollectionViewController.m */; };
+		A903AA6F22B138FD00F44042 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A903AA6E22B138FD00F44042 /* AppManager.m */; };
+		A90BCF8D22AFF42B00B472ED /* MoFilmCollectionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A90BCF8C22AFF42B00B472ED /* MoFilmCollectionRecord.m */; };
+		A90BCF9222AFF43300B472ED /* BaseManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A90BCF8F22AFF43300B472ED /* BaseManagedObjectContext.m */; };
+		A90BCF9322AFF43300B472ED /* AotterDemoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A90BCF9122AFF43300B472ED /* AotterDemoStore.m */; };
+		A90BCFC522B00AFD00B472ED /* MoMusicCollectionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A90BCFC422B00AFD00B472ED /* MoMusicCollectionRecord.m */; };
+		A97D062A22B5468A00402AFE /* AFNetworking.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = 455F5C5E22AE3ADC00184983 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9EF555C22AEBF730083AB2F /* URLNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF555B22AEBF730083AB2F /* URLNetworkTool.m */; };
+		A9EF556922AEC3DE0083AB2F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF556622AEC3DE0083AB2F /* MBProgressHUD.m */; };
+		A9EF556A22AEC3DE0083AB2F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF556722AEC3DE0083AB2F /* Utils.m */; };
+		A9EF556D22AEC4B70083AB2F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF556B22AEC4B70083AB2F /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		455F5C5D22AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522391BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
+		};
+		455F5C5F22AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522651BBF129200859F49;
+			remoteInfo = "AFNetworking watchOS";
+		};
+		455F5C6122AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522771BBF136400859F49;
+			remoteInfo = "AFNetworking macOS";
+		};
+		455F5C6322AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0A51BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS";
+		};
+		455F5C6522AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C3B1BC2C79500FD3B3E;
+			remoteInfo = "AFNetworking iOS Tests";
+		};
+		455F5C6722AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C4A1BC2C7B200FD3B3E;
+			remoteInfo = "AFNetworking macOS Tests";
+		};
+		455F5C6922AE3ADC00184983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0AE1BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A97D062222B5462A00402AFE /* Copy Files (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A97D062A22B5468A00402AFE /* AFNetworking.framework in Copy Files (1 item) */,
+			);
+			name = "Copy Files (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		453A82D922B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilmCollectionRecord+CoreDataProperties.h"; sourceTree = "<group>"; };
+		453A82DA22B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FilmCollectionRecord+CoreDataClass.h"; path = "../FilmCollectionRecord+CoreDataClass.h"; sourceTree = "<group>"; };
+		453A82DB22B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FilmCollectionRecord+CoreDataClass.m"; path = "../FilmCollectionRecord+CoreDataClass.m"; sourceTree = "<group>"; };
+		453A82DC22B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FilmCollectionRecord+CoreDataProperties.m"; sourceTree = "<group>"; };
+		453A82DD22B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicCollectionRecord+CoreDataProperties.h"; sourceTree = "<group>"; };
+		453A82DE22B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MusicCollectionRecord+CoreDataClass.h"; path = "../MusicCollectionRecord+CoreDataClass.h"; sourceTree = "<group>"; };
+		453A82DF22B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MusicCollectionRecord+CoreDataClass.m"; path = "../MusicCollectionRecord+CoreDataClass.m"; sourceTree = "<group>"; };
+		453A82E022B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MusicCollectionRecord+CoreDataProperties.m"; sourceTree = "<group>"; };
+		453A82EB22B0C4D400DD1215 /* MusicInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfoTableViewCell.m; sourceTree = "<group>"; };
+		453A82EC22B0C4D400DD1215 /* MusicInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfoTableViewCell.h; sourceTree = "<group>"; };
+		453A82ED22B0C4D400DD1215 /* MusicInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicInfoTableViewCell.xib; sourceTree = "<group>"; };
+		453A82F222B0CA1300DD1215 /* FilmInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmInfoTableViewCell.h; sourceTree = "<group>"; };
+		453A82F322B0CA1300DD1215 /* FilmInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmInfoTableViewCell.m; sourceTree = "<group>"; };
+		453A82F422B0CA1300DD1215 /* FilmInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmInfoTableViewCell.xib; sourceTree = "<group>"; };
+		453A82F822B0F99A00DD1215 /* ThemeConfigurationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeConfigurationViewController.h; sourceTree = "<group>"; };
+		453A82F922B0F99A00DD1215 /* ThemeConfigurationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeConfigurationViewController.m; sourceTree = "<group>"; };
+		4550518722B398B9006B1625 /* CollectionItemsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionItemsViewController.h; sourceTree = "<group>"; };
+		4550518822B398B9006B1625 /* CollectionItemsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionItemsViewController.m; sourceTree = "<group>"; };
+		455F5C3722AE35D900184983 /* AotterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AotterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455F5C3A22AE35D900184983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		455F5C3B22AE35D900184983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		455F5C3D22AE35D900184983 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		455F5C3E22AE35D900184983 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		455F5C4122AE35D900184983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455F5C4422AE35D900184983 /* AotterDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AotterDemo.xcdatamodel; sourceTree = "<group>"; };
+		455F5C4622AE35DB00184983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455F5C4922AE35DB00184983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455F5C4B22AE35DB00184983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455F5C4C22AE35DB00184983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking.xcodeproj; path = "AFNetworking-master/AFNetworking.xcodeproj"; sourceTree = "<group>"; };
+		456C1D9722AF534C00BB065E /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		456C1D9822AF534C00BB065E /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		456C1DA722AF5FC300BB065E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		456C1DA822AF5FC300BB065E /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4FD737C96784E74003DC84AF /* libPods-AotterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E798F3BEC50514DB216BFBC /* Pods-AotterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AotterDemo/Pods-AotterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9005E3E22B40A3F004DDB98 /* NinaBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaBaseView.h; sourceTree = "<group>"; };
+		A9005E3F22B40A3F004DDB98 /* UIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIParameter.h; sourceTree = "<group>"; };
+		A9005E4022B40A3F004DDB98 /* NinaPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaPagerView.m; sourceTree = "<group>"; };
+		A9005E4122B40A3F004DDB98 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		A9005E4222B40A3F004DDB98 /* NinaPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinaPagerView.h; sourceTree = "<group>"; };
+		A9005E4322B40A3F004DDB98 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		A9005E4422B40A3F004DDB98 /* NinaBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinaBaseView.m; sourceTree = "<group>"; };
+		A9005E4F22B41167004DDB98 /* FilmCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmCollectionViewController.m; sourceTree = "<group>"; };
+		A9005E5222B41167004DDB98 /* FilmCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmCollectionViewController.h; sourceTree = "<group>"; };
+		A9005E5522B411D0004DDB98 /* ChildBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBaseViewController.h; sourceTree = "<group>"; };
+		A9005E5622B411D0004DDB98 /* ChildBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBaseViewController.m; sourceTree = "<group>"; };
+		A9005E5B22B438F6004DDB98 /* MusicCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicCollectionViewController.h; sourceTree = "<group>"; };
+		A9005E5C22B438F6004DDB98 /* MusicCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicCollectionViewController.m; sourceTree = "<group>"; };
+		A903AA6D22B138FD00F44042 /* AppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		A903AA6E22B138FD00F44042 /* AppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		A90BCF8B22AFF42B00B472ED /* MoFilmCollectionRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoFilmCollectionRecord.h; sourceTree = "<group>"; };
+		A90BCF8C22AFF42B00B472ED /* MoFilmCollectionRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoFilmCollectionRecord.m; sourceTree = "<group>"; };
+		A90BCF8E22AFF43300B472ED /* AotterDemoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterDemoStore.h; sourceTree = "<group>"; };
+		A90BCF8F22AFF43300B472ED /* BaseManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManagedObjectContext.m; sourceTree = "<group>"; };
+		A90BCF9022AFF43300B472ED /* BaseManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManagedObjectContext.h; sourceTree = "<group>"; };
+		A90BCF9122AFF43300B472ED /* AotterDemoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterDemoStore.m; sourceTree = "<group>"; };
+		A90BCFC322B00AFD00B472ED /* MoMusicCollectionRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoMusicCollectionRecord.h; sourceTree = "<group>"; };
+		A90BCFC422B00AFD00B472ED /* MoMusicCollectionRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoMusicCollectionRecord.m; sourceTree = "<group>"; };
+		A9EF555A22AEBF730083AB2F /* URLNetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLNetworkTool.h; sourceTree = "<group>"; };
+		A9EF555B22AEBF730083AB2F /* URLNetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLNetworkTool.m; sourceTree = "<group>"; };
+		A9EF556522AEC3DE0083AB2F /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A9EF556622AEC3DE0083AB2F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A9EF556722AEC3DE0083AB2F /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A9EF556822AEC3DE0083AB2F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A9EF556B22AEC4B70083AB2F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A9EF556C22AEC4B70083AB2F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		EB143F2A2650BD73A960E3FE /* Pods-AotterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterDemo/Pods-AotterDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455F5C3422AE35D900184983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455F5C6C22AE3AF800184983 /* AFNetworking.framework in Frameworks */,
+				7B870223649B54551C2393D1 /* libPods-AotterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453A82F022B0C9D000DD1215 /* MusicInfo */ = {
+			isa = PBXGroup;
+			children = (
+				453A82EC22B0C4D400DD1215 /* MusicInfoTableViewCell.h */,
+				453A82EB22B0C4D400DD1215 /* MusicInfoTableViewCell.m */,
+				453A82ED22B0C4D400DD1215 /* MusicInfoTableViewCell.xib */,
+			);
+			path = MusicInfo;
+			sourceTree = "<group>";
+		};
+		453A82F122B0C9DB00DD1215 /* FilmInfo */ = {
+			isa = PBXGroup;
+			children = (
+				453A82F222B0CA1300DD1215 /* FilmInfoTableViewCell.h */,
+				453A82F322B0CA1300DD1215 /* FilmInfoTableViewCell.m */,
+				453A82F422B0CA1300DD1215 /* FilmInfoTableViewCell.xib */,
+			);
+			name = FilmInfo;
+			sourceTree = "<group>";
+		};
+		455F5C2E22AE35D900184983 = {
+			isa = PBXGroup;
+			children = (
+				455F5C3922AE35D900184983 /* AotterDemo */,
+				455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */,
+				455F5C3822AE35D900184983 /* Products */,
+				455F5C6B22AE3AF800184983 /* Frameworks */,
+				FCF33AF46A9FD08CDB9C5EB6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		455F5C3822AE35D900184983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455F5C3722AE35D900184983 /* AotterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455F5C3922AE35D900184983 /* AotterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A903AA6522B138CD00F44042 /* Manager */,
+				A90BCF7A22AFF39900B472ED /* CoreData */,
+				455F5C4322AE35D900184983 /* AotterDemoModel.xcdatamodeld */,
+				455F5C3A22AE35D900184983 /* AppDelegate.h */,
+				455F5C3B22AE35D900184983 /* AppDelegate.m */,
+				A9EF556422AEBF810083AB2F /* Utils */,
+				456C1D9622AF52B700BB065E /* ViewController */,
+				455F5C4022AE35D900184983 /* Main.storyboard */,
+				455F5C4622AE35DB00184983 /* Assets.xcassets */,
+				455F5C4822AE35DB00184983 /* LaunchScreen.storyboard */,
+				455F5C4B22AE35DB00184983 /* Info.plist */,
+				455F5C4C22AE35DB00184983 /* main.m */,
+			);
+			path = AotterDemo;
+			sourceTree = "<group>";
+		};
+		455F5C5422AE3ADC00184983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455F5C5E22AE3ADC00184983 /* AFNetworking.framework */,
+				455F5C6022AE3ADC00184983 /* AFNetworking.framework */,
+				455F5C6222AE3ADC00184983 /* AFNetworking.framework */,
+				455F5C6422AE3ADC00184983 /* AFNetworking.framework */,
+				455F5C6622AE3ADC00184983 /* AFNetworking iOS Tests.xctest */,
+				455F5C6822AE3ADC00184983 /* AFNetworking macOS Tests.xctest */,
+				455F5C6A22AE3ADC00184983 /* AFNetworking tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455F5C6B22AE3AF800184983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD737C96784E74003DC84AF /* libPods-AotterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456C1D9622AF52B700BB065E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				455F5C3D22AE35D900184983 /* MainViewController.h */,
+				455F5C3E22AE35D900184983 /* MainViewController.m */,
+				456C1D9C22AF551600BB065E /* MediaTableViewCell */,
+				456C1D9722AF534C00BB065E /* PersonalViewController.h */,
+				456C1D9822AF534C00BB065E /* PersonalViewController.m */,
+				453A82F822B0F99A00DD1215 /* ThemeConfigurationViewController.h */,
+				453A82F922B0F99A00DD1215 /* ThemeConfigurationViewController.m */,
+				A97D061722B52AA600402AFE /* CollectionItemsVC */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		456C1D9C22AF551600BB065E /* MediaTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				453A82F122B0C9DB00DD1215 /* FilmInfo */,
+				453A82F022B0C9D000DD1215 /* MusicInfo */,
+			);
+			name = MediaTableViewCell;
+			sourceTree = "<group>";
+		};
+		A9005E3D22B40A2A004DDB98 /* NinaPagerView(Third_Party_Tool) */ = {
+			isa = PBXGroup;
+			children = (
+				A9005E4822B40E7A004DDB98 /* ChildView */,
+				A9005E3E22B40A3F004DDB98 /* NinaBaseView.h */,
+				A9005E4422B40A3F004DDB98 /* NinaBaseView.m */,
+				A9005E4222B40A3F004DDB98 /* NinaPagerView.h */,
+				A9005E4022B40A3F004DDB98 /* NinaPagerView.m */,
+				A9005E3F22B40A3F004DDB98 /* UIParameter.h */,
+				A9005E4322B40A3F004DDB98 /* UIView+ViewController.h */,
+				A9005E4122B40A3F004DDB98 /* UIView+ViewController.m */,
+			);
+			name = "NinaPagerView(Third_Party_Tool)";
+			sourceTree = "<group>";
+		};
+		A9005E4822B40E7A004DDB98 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				A9005E5522B411D0004DDB98 /* ChildBaseViewController.h */,
+				A9005E5622B411D0004DDB98 /* ChildBaseViewController.m */,
+				A9005E5222B41167004DDB98 /* FilmCollectionViewController.h */,
+				A9005E4F22B41167004DDB98 /* FilmCollectionViewController.m */,
+				A9005E5B22B438F6004DDB98 /* MusicCollectionViewController.h */,
+				A9005E5C22B438F6004DDB98 /* MusicCollectionViewController.m */,
+			);
+			name = ChildView;
+			sourceTree = "<group>";
+		};
+		A903AA6522B138CD00F44042 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A903AA6D22B138FD00F44042 /* AppManager.h */,
+				A903AA6E22B138FD00F44042 /* AppManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A90BCF7A22AFF39900B472ED /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A90BCF9022AFF43300B472ED /* BaseManagedObjectContext.h */,
+				A90BCF8F22AFF43300B472ED /* BaseManagedObjectContext.m */,
+				A90BCF8E22AFF43300B472ED /* AotterDemoStore.h */,
+				A90BCF9122AFF43300B472ED /* AotterDemoStore.m */,
+				A90BCF8422AFF3D800B472ED /* MoObject */,
+				A90BCF8322AFF3C800B472ED /* Schema(CoreDataClass) */,
+				A90BCF8222AFF3BE00B472ED /* Object(CoreDataProperties) */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		A90BCF8222AFF3BE00B472ED /* Object(CoreDataProperties) */ = {
+			isa = PBXGroup;
+			children = (
+				453A82D922B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.h */,
+				453A82DC22B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.m */,
+				453A82DD22B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.h */,
+				453A82E022B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.m */,
+			);
+			path = "Object(CoreDataProperties)";
+			sourceTree = "<group>";
+		};
+		A90BCF8322AFF3C800B472ED /* Schema(CoreDataClass) */ = {
+			isa = PBXGroup;
+			children = (
+				453A82DA22B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.h */,
+				453A82DB22B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.m */,
+				453A82DE22B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.h */,
+				453A82DF22B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.m */,
+			);
+			name = "Schema(CoreDataClass)";
+			sourceTree = "<group>";
+		};
+		A90BCF8422AFF3D800B472ED /* MoObject */ = {
+			isa = PBXGroup;
+			children = (
+				A90BCF8B22AFF42B00B472ED /* MoFilmCollectionRecord.h */,
+				A90BCF8C22AFF42B00B472ED /* MoFilmCollectionRecord.m */,
+				A90BCFC322B00AFD00B472ED /* MoMusicCollectionRecord.h */,
+				A90BCFC422B00AFD00B472ED /* MoMusicCollectionRecord.m */,
+			);
+			name = MoObject;
+			sourceTree = "<group>";
+		};
+		A97D061722B52AA600402AFE /* CollectionItemsVC */ = {
+			isa = PBXGroup;
+			children = (
+				4550518722B398B9006B1625 /* CollectionItemsViewController.h */,
+				4550518822B398B9006B1625 /* CollectionItemsViewController.m */,
+				A9005E3D22B40A2A004DDB98 /* NinaPagerView(Third_Party_Tool) */,
+			);
+			name = CollectionItemsVC;
+			sourceTree = "<group>";
+		};
+		A9EF556422AEBF810083AB2F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A9EF556C22AEC4B70083AB2F /* Reachability.h */,
+				A9EF556B22AEC4B70083AB2F /* Reachability.m */,
+				A9EF556822AEC3DE0083AB2F /* MBProgressHUD.h */,
+				A9EF556622AEC3DE0083AB2F /* MBProgressHUD.m */,
+				A9EF556522AEC3DE0083AB2F /* Utils.h */,
+				A9EF556722AEC3DE0083AB2F /* Utils.m */,
+				A9EF555A22AEBF730083AB2F /* URLNetworkTool.h */,
+				A9EF555B22AEBF730083AB2F /* URLNetworkTool.m */,
+				456C1DA722AF5FC300BB065E /* Constants.h */,
+				456C1DA822AF5FC300BB065E /* Constants.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FCF33AF46A9FD08CDB9C5EB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E798F3BEC50514DB216BFBC /* Pods-AotterDemo.debug.xcconfig */,
+				EB143F2A2650BD73A960E3FE /* Pods-AotterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455F5C3622AE35D900184983 /* AotterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455F5C5022AE35DB00184983 /* Build configuration list for PBXNativeTarget "AotterDemo" */;
+			buildPhases = (
+				A607A86AA7B4AE6AA597BD85 /* [CP] Check Pods Manifest.lock */,
+				455F5C3322AE35D900184983 /* Sources */,
+				455F5C3422AE35D900184983 /* Frameworks */,
+				455F5C3522AE35D900184983 /* Resources */,
+				A97D062222B5462A00402AFE /* Copy Files (1 item) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AotterDemo;
+			productName = AotterDemo;
+			productReference = 455F5C3722AE35D900184983 /* AotterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455F5C2F22AE35D900184983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					455F5C3622AE35D900184983 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 455F5C3222AE35D900184983 /* Build configuration list for PBXProject "AotterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455F5C2E22AE35D900184983;
+			productRefGroup = 455F5C3822AE35D900184983 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 455F5C5422AE3ADC00184983 /* Products */;
+					ProjectRef = 455F5C5322AE3ADC00184983 /* AFNetworking.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				455F5C3622AE35D900184983 /* AotterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		455F5C5E22AE3ADC00184983 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 455F5C5D22AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455F5C6022AE3ADC00184983 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 455F5C5F22AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455F5C6222AE3ADC00184983 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 455F5C6122AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455F5C6422AE3ADC00184983 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 455F5C6322AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455F5C6622AE3ADC00184983 /* AFNetworking iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking iOS Tests.xctest";
+			remoteRef = 455F5C6522AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455F5C6822AE3ADC00184983 /* AFNetworking macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking macOS Tests.xctest";
+			remoteRef = 455F5C6722AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455F5C6A22AE3ADC00184983 /* AFNetworking tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking tvOS Tests.xctest";
+			remoteRef = 455F5C6922AE3ADC00184983 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455F5C3522AE35D900184983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453A82F622B0CA1300DD1215 /* FilmInfoTableViewCell.xib in Resources */,
+				455F5C4A22AE35DB00184983 /* LaunchScreen.storyboard in Resources */,
+				453A82EF22B0C4D400DD1215 /* MusicInfoTableViewCell.xib in Resources */,
+				455F5C4722AE35DB00184983 /* Assets.xcassets in Resources */,
+				455F5C4222AE35D900184983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A607A86AA7B4AE6AA597BD85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AotterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455F5C3322AE35D900184983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456C1DA922AF5FC300BB065E /* Constants.m in Sources */,
+				A9005E5D22B438F6004DDB98 /* MusicCollectionViewController.m in Sources */,
+				453A82F522B0CA1300DD1215 /* FilmInfoTableViewCell.m in Sources */,
+				453A82EE22B0C4D400DD1215 /* MusicInfoTableViewCell.m in Sources */,
+				A90BCFC522B00AFD00B472ED /* MoMusicCollectionRecord.m in Sources */,
+				A9005E4722B40A3F004DDB98 /* NinaBaseView.m in Sources */,
+				453A82E322B083D100DD1215 /* MusicCollectionRecord+CoreDataClass.m in Sources */,
+				456C1D9A22AF534C00BB065E /* PersonalViewController.m in Sources */,
+				4550518922B398B9006B1625 /* CollectionItemsViewController.m in Sources */,
+				A90BCF9322AFF43300B472ED /* AotterDemoStore.m in Sources */,
+				A90BCF9222AFF43300B472ED /* BaseManagedObjectContext.m in Sources */,
+				A9005E5322B41167004DDB98 /* FilmCollectionViewController.m in Sources */,
+				455F5C4522AE35D900184983 /* AotterDemoModel.xcdatamodeld in Sources */,
+				A9005E4522B40A3F004DDB98 /* NinaPagerView.m in Sources */,
+				A903AA6F22B138FD00F44042 /* AppManager.m in Sources */,
+				453A82E122B083D100DD1215 /* FilmCollectionRecord+CoreDataClass.m in Sources */,
+				A9EF556922AEC3DE0083AB2F /* MBProgressHUD.m in Sources */,
+				A9EF556D22AEC4B70083AB2F /* Reachability.m in Sources */,
+				A9005E4622B40A3F004DDB98 /* UIView+ViewController.m in Sources */,
+				A9005E5722B411D1004DDB98 /* ChildBaseViewController.m in Sources */,
+				453A82E222B083D100DD1215 /* FilmCollectionRecord+CoreDataProperties.m in Sources */,
+				453A82E422B083D100DD1215 /* MusicCollectionRecord+CoreDataProperties.m in Sources */,
+				453A82FA22B0F99A00DD1215 /* ThemeConfigurationViewController.m in Sources */,
+				455F5C3F22AE35D900184983 /* MainViewController.m in Sources */,
+				A9EF555C22AEBF730083AB2F /* URLNetworkTool.m in Sources */,
+				455F5C4D22AE35DB00184983 /* main.m in Sources */,
+				A9EF556A22AEC3DE0083AB2F /* Utils.m in Sources */,
+				A90BCF8D22AFF42B00B472ED /* MoFilmCollectionRecord.m in Sources */,
+				455F5C3C22AE35D900184983 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		455F5C4022AE35D900184983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455F5C4122AE35D900184983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455F5C4822AE35DB00184983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455F5C4922AE35DB00184983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455F5C4E22AE35DB00184983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		455F5C4F22AE35DB00184983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455F5C5122AE35DB00184983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E798F3BEC50514DB216BFBC /* Pods-AotterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AotterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AotterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455F5C5222AE35DB00184983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB143F2A2650BD73A960E3FE /* Pods-AotterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AotterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AotterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455F5C3222AE35D900184983 /* Build configuration list for PBXProject "AotterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455F5C4E22AE35DB00184983 /* Debug */,
+				455F5C4F22AE35DB00184983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455F5C5022AE35DB00184983 /* Build configuration list for PBXNativeTarget "AotterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455F5C5122AE35DB00184983 /* Debug */,
+				455F5C5222AE35DB00184983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		455F5C4322AE35D900184983 /* AotterDemoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				455F5C4422AE35D900184983 /* AotterDemo.xcdatamodel */,
+			);
+			currentVersion = 455F5C4422AE35D900184983 /* AotterDemo.xcdatamodel */;
+			path = AotterDemoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 455F5C2F22AE35D900184983 /* Project object */;
+}
